@@ -27,7 +27,7 @@
         <li>Dấu * để cho trình biên dịch biết ta đang khai báo con trỏ</li> 
     </ol>
 - Câu lệnh khởi tạo và hủy bỏ:       
-    + **malloc** cấp phát bộ nhớ chưa được khởi tạo.
+    + **malloc** cấp phát bộ nhớ chưa được khởi tạo. (ngôn ngữ C)
     + **calloc** giống như **malloc** nhưng khởi tạo bộ nhớ được cấp phát với một hằng số (0). **malloc** và **calloc** cần được giải phóng với **free**. (ngôn ngữ C)
     + **new** khởi tạo bộ nhớ được cấp phát bằng cách gọi hàm tạo (nếu đó là một đối tượng). Bộ nhớ được cấp phát bằng **new** được giải phóng với **delete**(hàm hủy). (ngôn ngữ C++)
 # Vài ví dụ
