@@ -95,7 +95,7 @@ Khi hàm trả về dạng con trỏ:
 ![image pointer type array in function](image/pointerTypeArrayinFunction.png)
 
 - Ví dụ 4
-![image create array 2d by pointer](image/create-array2dByPointer.png)
+![image create array 2d by pointer](image/create-array2DByPointer.png)
 > Khi truyền dạng object, cú pháp khai báo con trỏ: "tên_Object"*  + "tên_con_trỏ" = new "tên_Object"[số lượng phần tử]
 > Không dùng toán tử new với kiểu dữ liệu khác ! 
 
