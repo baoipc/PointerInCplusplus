@@ -65,7 +65,7 @@ cout << *&a;  // in ra 5</code>
 
 ![image pointer is array](image/array.png)
 
-- Ví dụ 8 
+- Ví dụ 8: 
 Từ khóa "void" làm biến dạng con trỏ     
     + Bản thân biến dùng từ khóa void để làm con trỏ sẽ không được tham chiếu. Khi compile trình biên dịch sẽ không hiểu khi muốn in ra mặc dù khởi tạo sẽ không báo lỗi. Cần ép kiểu là con trỏ mới in ra được
     + Trong thư viện C chuẩn thì không có toán tử tính toán dành cho loại biến này. Tuy nhiên, GNU C cho phép kích thước biến dạng này là 1 byte 
