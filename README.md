@@ -57,9 +57,11 @@ cout << *&a;  // in ra 5</code>
 > Bản thân mình hiểu là: giá trị địa chỉ sẽ là dạng '&' + tên biến. '*' + '&' + tên biến là giá trị biến đó
 
 - Ví dụ 6 
+
 ![image pointer is string](image/string.png)
 
 - Ví dụ 7 
+
 ![image pointer is array](image/array.png)
 
 - Ví dụ 8 
@@ -86,16 +88,21 @@ Khi hàm trả về dạng con trỏ:
 
 ###### Ví dụ về toán tử new và toán tử delete
 - Ví dụ 1 
+
 ![image operator new and delete](image/operator-new&delete.png)
 
 - Ví dụ 2
+
 ![image create array by pointer](image/create-arrayByPointer.png)
 
 - Ví dụ 3
+
 ![image pointer type array in function](image/pointerTypeArrayinFunction.png)
 
 - Ví dụ 4
+
 ![image create array 2d by pointer](image/create-array2DByPointer.png)
+
 > Khi truyền dạng object, cú pháp khai báo con trỏ: "tên_Object"*  + "tên_con_trỏ" = new "tên_Object"[số lượng phần tử]
 > Không dùng toán tử new với kiểu dữ liệu khác ! 
 
