@@ -15,6 +15,7 @@
 - Về mặt hình thức có thể thay bằng từ khóa "define" (tiền xử lí)
 - Tạo ra một biến trỏ tới một biến khác, khi một trong hai biến thay đổi giá trị thì biến kia tự thay đổi theo
 - Ví dụ:
+    
     ![image reference](image/thamchieu.png)
 ## Con Trỏ
 - Lưu địa chỉ của một đối tượng DỮ LIỆU KHÁC
